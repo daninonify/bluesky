@@ -26,7 +26,7 @@ export default function HowItWorks() {
         </div>
         <ol className="steps">
           {steps.map((s) => (
-            <li key={s.n} className="reveal step">
+            <li key={s.n} className="step">
               <span className="step-n">{s.n}</span>
               <h3>{s.title}</h3>
               <p>{s.text}</p>

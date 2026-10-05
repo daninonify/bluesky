@@ -33,7 +33,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-grid">
         <div className="footer-brand">
-          <Logo light />
+          <Logo />
           <p>Made for everyday.</p>
         </div>
         {cols.map((c) => (

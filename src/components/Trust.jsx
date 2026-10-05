@@ -10,7 +10,7 @@ export default function Trust() {
     <section className="trust" aria-label="BlueSky at a glance">
       <div className="container trust-grid">
         {items.map(([big, small]) => (
-          <div key={big} className="reveal trust-item">
+          <div key={big} className="trust-item">
             <strong>{big}</strong>
             <span>{small}</span>
           </div>

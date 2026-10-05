@@ -17,7 +17,7 @@ export default function Identity() {
   return (
     <section className="section" id="identity">
       <div className="container identity-grid">
-        <div className="reveal identity-copy">
+        <div className="identity-copy">
           <span className="eyebrow">The thread</span>
           <h2>One identity, everywhere</h2>
           <p>
@@ -32,9 +32,9 @@ export default function Identity() {
           </ul>
         </div>
 
-        <div className="reveal identity-map" aria-hidden="true">
+        <div className="identity-map" aria-hidden="true">
           <svg className="id-lines" viewBox="0 0 400 320" preserveAspectRatio="none">
-            <g fill="none" stroke="#0047AB" strokeOpacity="0.28" strokeWidth="1.5">
+            <g fill="none" stroke="#4A8CF0" strokeOpacity="0.45" strokeWidth="1.5">
               {[40, 120, 200, 280].map((y) => (
                 <path key={`l${y}`} d={`M110 ${y} C160 ${y} 160 160 200 160`} />
               ))}
