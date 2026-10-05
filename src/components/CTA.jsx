@@ -14,6 +14,7 @@ export default function CTA() {
 
   return (
     <section className="cta" id="start">
+      
       <div className="container">
         <div className="cta-card">
           <h2>Made for everyday</h2>
