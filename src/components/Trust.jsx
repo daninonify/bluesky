@@ -2,7 +2,7 @@ const items = [
   ['One', 'identity across every service'],
   ['4', 'everyday services, open to all'],
   ['2', 'worlds joined: life and institutions'],
-  ['BIU', 'first NexusHub, more to follow'],
+  ['BIU', 'first Hub, more to follow'],
 ]
 
 export default function Trust() {

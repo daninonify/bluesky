@@ -4,7 +4,7 @@ import Icon from './Icons.jsx'
 const faqs = [
   {
     q: 'Do I need to belong to an institution?',
-    a: 'No. Everyday Services are open to everyone. Join a NexusHub such as BIU only if you belong to one.',
+    a: 'No. Everyday Services are open to everyone. Join a Hub such as BIU only if you belong to one.',
   },
   {
     q: 'How does one identity work?',
@@ -15,7 +15,7 @@ const faqs = [
     a: 'Fees are shown before you confirm. Money moves between your wallet and the person or institution you are paying, and every transaction appears in your history.',
   },
   {
-    q: 'What happens to my data inside a NexusHub?',
+    q: 'What happens to my data inside a Hub?',
     a: 'Institutions see only what their workspace needs, such as attendance or staff records. Your everyday activity stays separate from theirs.',
   },
   {

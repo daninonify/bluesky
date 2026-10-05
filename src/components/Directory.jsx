@@ -5,7 +5,7 @@ import { everyday, institutions } from '../data/products.js'
 const tabs = [
   ['all', 'All'],
   ['everyday', 'For everyone'],
-  ['nexushubs', 'For institutions'],
+  ['hubs', 'For institutions'],
 ]
 
 function Card({ p }) {
@@ -26,7 +26,7 @@ export default function Directory() {
   useEffect(() => {
     const onHash = () => {
       const id = window.location.hash.slice(1)
-      if (id !== 'everyday' && id !== 'nexushubs') return
+      if (id !== 'everyday' && id !== 'hubs') return
       setTab('all')
       requestAnimationFrame(() => document.getElementById(id)?.scrollIntoView())
     }
@@ -52,7 +52,7 @@ export default function Directory() {
           ))}
         </div>
 
-        <div className="group" id="everyday" hidden={tab === 'nexushubs'}>
+        <div className="group" id="everyday" hidden={tab === 'hubs'}>
           <div className="group-head">
             <span className="eyebrow">For everyone</span>
             <h2>Everyday services, no institution required</h2>
@@ -68,10 +68,10 @@ export default function Directory() {
           </div>
         </div>
 
-        <div className="group" id="nexushubs" hidden={tab === 'everyday'}>
+        <div className="group" id="hubs" hidden={tab === 'everyday'}>
           <div className="group-head">
             <span className="eyebrow">For institutions</span>
-            <h2>NexusHubs: a workspace for every organisation</h2>
+            <h2>Hubs: a workspace for every organisation</h2>
             <p>
               Dedicated workspaces for organisations, starting with BIU. Members
               sign in with the same BlueSky identity they already use, so

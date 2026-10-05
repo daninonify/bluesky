@@ -18,7 +18,7 @@ export default function Hero() {
         <span className="pill">
           <span className="pill-dot" /> Now live at BIU
         </span>
-        <h1>Pay, send, done.</h1>
+        <h1>One identity, Every door.</h1>
         <p className="lede">
           One identity for everyday life and the institutions you belong to.
           A wallet, a marketplace, a campus, a workplace: connected, and

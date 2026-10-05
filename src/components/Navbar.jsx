@@ -5,7 +5,7 @@ import { everyday, institutions } from '../data/products.js'
 
 const menus = [
   { id: 'everyday', label: 'Everyday', href: '#everyday', items: everyday },
-  { id: 'nexushubs', label: 'NexusHubs', href: '#nexushubs', items: institutions },
+  { id: 'hubs', label: 'Hubs', href: '#hubs', items: institutions },
 ]
 
 const links = [

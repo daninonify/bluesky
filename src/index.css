@@ -216,6 +216,13 @@ button {
   gap: 10px;
 }
 
+.logo-mark {
+  display: block;
+  border-radius: 22%;
+  overflow: hidden;
+  flex: none;
+}
+
 .logo-word {
   font-family: var(--font-display);
   font-weight: 600;

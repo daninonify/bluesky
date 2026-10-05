@@ -13,8 +13,8 @@ const cols = [
   {
     title: 'Institutions',
     links: [
-      ['NexusHubs', '#nexushubs'],
-      ['BIU', '#nexushubs'],
+      ['Hubs', '#hubs'],
+      ['BIU', '#hubs'],
       ['Bring your organisation', '#start'],
     ],
   },

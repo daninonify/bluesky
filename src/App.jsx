@@ -19,7 +19,7 @@ export default function App() {
       <Navbar onSignIn={() => setSignInOpen(true)} />
       <main>
         <Hero />
-        <Trust />
+        {/* <Trust /> */}
         <Directory />
         <Spotlight />
         <Identity />

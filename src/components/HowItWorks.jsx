@@ -12,7 +12,7 @@ const steps = [
   {
     n: '3',
     title: 'Add your institutions',
-    text: 'Join a NexusHub like BIU with the same login. Nothing to re-enter.',
+    text: 'Join a Hub like BIU with the same login. Nothing to re-enter.',
   },
 ]
 
